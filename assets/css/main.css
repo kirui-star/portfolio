@@ -4020,3 +4020,50 @@ Each span creates an intentional desktop line.
         font-size: 2rem;
     }
 }
+
+/* =====================================
+   COMPACT RESUME PAGE
+===================================== */
+
+.resume-page {
+    padding-top: 25px !important;
+    padding-bottom: 30px;
+}
+
+.resume-heading {
+    margin-top: 0 !important;
+    margin-bottom: 18px !important;
+    padding: 0 !important;
+}
+
+.resume-heading .eyebrow {
+    margin-bottom: 6px !important;
+}
+
+.resume-heading h1 {
+    font-size: 2.2rem;
+    margin: 6px 0 10px !important;
+}
+
+.resume-heading > p:not(.eyebrow) {
+    margin: 0 auto 12px !important;
+    line-height: 1.4;
+}
+
+.resume-heading .hero-actions,
+.resume-heading .resume-actions {
+    margin-top: 12px !important;
+    margin-bottom: 12px !important;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+    .resume-page {
+        padding-top: 18px !important;
+    }
+
+    .resume-heading h1 {
+        font-size: 1.8rem;
+    }
+}
